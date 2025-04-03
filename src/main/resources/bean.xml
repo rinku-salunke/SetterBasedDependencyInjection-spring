@@ -1,0 +1,50 @@
+<beans xmlns="http://www.springframework.org/schema/beans"
+	   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	   xmlns:context="http://www.springframework.org/schema/context"
+	   xsi:schemaLocation="
+			http://www.springframework.org/schema/beans
+			https://www.springframework.org/schema/beans/spring-beans.xsd
+			http://www.springframework.org/schema/context
+			https://www.springframework.org/schema/context/spring-context.xsd">
+
+
+<!--<bean  id="s" class="com.ObjectType.Student">
+<property name="adr" ref="adr"></property>
+</bean>
+
+
+<bean id="adr" class="com.ObjectType.Address" >
+<property name="areaname" value="Pune"></property>
+</bean>-->
+
+
+
+<!--<bean id="s" class="com.CollectionType.Student">
+
+<property name="names">
+
+<list>
+
+<value>Rinku</value>
+<value>Priyuu</value>
+<value>Gabulli</value>
+</list>
+</property>
+
+</bean>
+-->
+
+
+<bean id="s" class="com.CollectionType.StudentMap">
+
+<property name="map">
+
+<map>
+<entry key="1" value="10000" >
+</entry>
+<entry key="2" value="20000"></entry>
+</map>
+</property>
+</bean>
+</beans>
+
